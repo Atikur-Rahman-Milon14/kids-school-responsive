@@ -75,24 +75,23 @@ header section button{
 /* Header Content  */
 .container{
     display: flex;
-    width: 1158.61px;
-    height: 575px;
+    justify-content: space-between;
+    align-items: center;
+    width: 80%;
     margin: 0px auto;
+    /* border: 1px solid black; */
+    gap: 20px;
 }
 .content{
-    width: 640px;
-    height: 331px;
-    margin: 122px 50px;
+    
 }
 .header-text{
-    width: 640px;
-    height: 183px;
     font-family: Quicksand;
     font-size: 56px;
     font-weight: 700;
-    line-height: 61px;
-    letter-spacing: 0%;
-    text-align: left;
+}
+#header-hero{
+    
 }
 .orange{
     color: rgb(254, 163, 1);
@@ -132,8 +131,8 @@ header section button{
     .nav-er-abba{
         flex-direction: column;
 
-    }
-    .logo{
+    } 
+     .logo{
         background-color: white;
         border: 0.5px solid rgb(254, 163, 1);
         width: 390px;
@@ -141,14 +140,15 @@ header section button{
         border-top: 0px;
         border-left: 0px;
         border-right: 0px;
-    }
-    .container{
+    } 
+     .container{
         flex-direction: column-reverse;
+        gap: 80px;
+    } 
+     .button, .button-primary, .name{
+        visibility: hidden;
     }
     #nav-one, #nav-two, #nav-three, #nav-four{
-        width: 50px;
-    }
-    .button, .button-primary, .name{
         visibility: hidden;
     }
     nav{
@@ -196,5 +196,7 @@ header section button{
     .baccar-img{
         margin-top: 430px;
     }
-
+    #header-hero{
+        width: 100%;
+    }
 }
