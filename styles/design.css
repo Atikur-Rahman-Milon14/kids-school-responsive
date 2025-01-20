@@ -41,7 +41,7 @@
     font-weight: 500;
     line-height: 30px;
 }
-header div button{
+    .button-primary{
     color: rgb(255, 255, 255);
     font-family: Quicksand;
     font-size: 20px;
@@ -69,7 +69,7 @@ nav ul{
     display: flex;
     justify-content: space-around;
 }
-.button{
+header section button{
     margin-top: 27px;
 }
 /* Header Content  */
@@ -108,7 +108,7 @@ nav ul{
 }
 
 /* shared style  */
-button{
+.black-button{
     width: 197px;
     height: 50px;
     justify-content: center;
@@ -128,3 +128,73 @@ button{
 
 
 /* For small device  */
+@media screen and (max-width: 576px) {
+    .nav-er-abba{
+        flex-direction: column;
+
+    }
+    .logo{
+        background-color: white;
+        border: 0.5px solid rgb(254, 163, 1);
+        width: 500px;
+        height: 100px;
+        border-top: 0px;
+        border-left: 0px;
+        border-right: 0px;
+    }
+    .container{
+        flex-direction: column;
+    }
+    #nav-one, #nav-two, #nav-three, #nav-four{
+        width: 50px;
+    }
+    .button, .button-primary, .name{
+        visibility: hidden;
+    }
+    nav{
+        height: auto;
+    }
+    .header-text{
+        font-family: Quicksand;
+        font-size: 32px;
+        font-weight: 700;
+        line-height: 40px;
+        letter-spacing: 0%;
+        text-align: center;
+        width: 357px;
+        height: 120px;
+        align-items: center;
+        justify-items: center;
+    }
+    .black-button{
+        padding: 6px 24px 6px 24px;
+        justify-content: center;
+        align-items: center;
+        margin-left: 82px;
+    }
+    .header-pgh{
+        color: rgb(17, 17, 17);
+        font-family: Quicksand;
+        font-size: 14px;
+        font-weight: 500;
+        line-height: 18px;
+        width: 357px;
+        height: 54px;
+        justify-content: center;
+        align-items: center;
+        margin: 18px 0px;
+        text-align: center;
+    }
+    .content{
+        width: 357px;
+        height: 252px;
+        justify-content: center;
+        align-items: center;
+        gap: 18;
+        padding: 0px;
+    }
+    .baccar-img{
+        margin-top: 430px;
+    }
+
+}
