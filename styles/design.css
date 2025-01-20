@@ -1,0 +1,130 @@
+/* font style  */
+.everything{
+    font-family: "Work Sans", serif;
+    font-optical-sizing: auto;
+    font-weight: 400px;
+    font-style: normal;
+  }
+/* Header Section  */
+.name{
+    color: rgb(17, 17, 17);
+    font-family: Quicksand;
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 30px;
+}
+#nav-one{
+    color: rgb(254, 163, 1);
+    font-family: Quicksand;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 30px;
+}
+#nav-two{
+    color: rgb(1, 172, 253);
+    font-family: Quicksand;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 30px;
+}
+#nav-three{
+    color: rgb(5, 212, 223);
+    font-family: Quicksand;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 30px;
+}
+#nav-four{
+    color: rgb(93, 88, 239);
+    font-family: Quicksand;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 30px;
+}
+header div button{
+    color: rgb(255, 255, 255);
+    font-family: Quicksand;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 30px;
+    padding: 10px;
+    width: 197px;
+    height: 50px;
+    border-radius: 12px;
+    border: none;
+    background-color: rgb(254, 163, 1);
+}
+.logo{
+    display: flex;
+    align-items: center;
+}
+nav ul li{
+    list-style: none;
+    margin: 10px;
+}
+nav ul{
+    display: flex;
+}
+.nav-er-abba{
+    display: flex;
+    justify-content: space-around;
+}
+.button{
+    margin-top: 27px;
+}
+/* Header Content  */
+.container{
+    display: flex;
+    width: 1158.61px;
+    height: 575px;
+    margin: 0px auto;
+}
+.content{
+    width: 640px;
+    height: 331px;
+    margin: 122px 50px;
+}
+.header-text{
+    width: 640px;
+    height: 183px;
+    font-family: Quicksand;
+    font-size: 56px;
+    font-weight: 700;
+    line-height: 61px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+.orange{
+    color: rgb(254, 163, 1);
+}
+.blue{
+    color: rgb(1, 172, 253);
+}
+.header-pgh{
+    color: rgb(17, 17, 17);
+    font-family: Quicksand;
+    font-size: 20px;
+    font-weight: 400;
+}
+
+/* shared style  */
+button{
+    width: 197px;
+    height: 50px;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    border-radius: 12px;
+    background-color: rgb(17, 17, 17);
+    color: rgb(255, 255, 255);
+    font-family: Quicksand;
+    font-size: 20px;
+    font-weight: 700;
+    border: none;
+}
+
+
+
+
+
+/* For small device  */
