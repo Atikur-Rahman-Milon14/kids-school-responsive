@@ -142,6 +142,7 @@ header section button{
 }
 .box-item{
     display: flex;
+    height: 100%;
 }
 .flexxx{
     /* border: 1px solid black; */
@@ -195,6 +196,34 @@ header section button{
 .color-three{
     color: rgb(135, 0, 255);
 }
+.less{
+    color: white;
+    background: rgb(254, 163, 1);
+    border-radius: 50%;
+    border: none;
+    width: 60px;
+    height: 60px;
+    font-size: 30px;
+    text-align: center;
+}
+.left-right{
+    margin: 50px 0px;
+    /* border: 1px solid black;
+    align-items: center;
+    justify-content: center; */
+    text-align: center;
+}
+
+
+
+
+
+
+
+
+
+
+
 /* For small device  */
 @media screen and (max-width: 576px) {
     .nav-er-abba{
@@ -281,8 +310,13 @@ header section button{
     .box-item{
         flex-direction: column;
         margin-bottom: 10px;
+        
     }
     .flexxx{
         width: 70%;
+        height: 100%;
+    }
+    .left-right{
+        visibility: hidden;
     }
 }
