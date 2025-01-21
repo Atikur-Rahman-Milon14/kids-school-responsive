@@ -136,13 +136,23 @@ header section button{
     text-align: center;
     margin: 80px auto;
 }
+.main-sctn-title-two{
+    color: rgb(0, 0, 0);
+    font-family: Quicksand;
+    font-size: 46px;
+    font-weight: 700;
+    text-align: center;
+    margin: 30px auto;
+}
 .sctn-first{
-    width: 100%;
-    height: 879px;
+    width: 80%;
+    margin: 0px auto;
 }
 .box-item{
     display: flex;
+    gap: 20px;
     height: 100%;
+    /* border: 1px solid red; */
 }
 .flexxx{
     /* border: 1px solid black; */
@@ -208,11 +218,59 @@ header section button{
 }
 .left-right{
     margin: 50px 0px;
-    /* border: 1px solid black;
-    align-items: center;
+    /* border: 1px solid black; */
+    /*align-items: center;
     justify-content: center; */
     text-align: center;
 }
+.footer-pgh{
+    color: rgb(255, 255, 255);
+    font-family: Quicksand;
+    font-size: 20px;
+    font-weight: 400;
+    text-align: left;
+    width: 399.02px;
+    height: 100px;
+}
+.footer-container{
+    display: flex;
+    justify-content: space-around;
+    padding: 123px;
+    /* border: 1px solid green; */
+}
+.kds-school{
+    color: rgb(255, 255, 255);
+    font-family: Quicksand;
+    font-size: 38px;
+    font-weight: 700;
+}
+.footer-font{
+    color: rgb(255, 255, 255);
+    font-family: Quicksand;
+    font-size: 20px;
+    font-weight: 500;
+    width: 97.47px;
+    height: 25px;
+}
+.footer-title-div{
+    color: rgb(255, 255, 255);
+    font-family: Quicksand;
+    font-size: 26px;
+    font-weight: 700;
+}
+
+
+footer{
+    width: 100%;
+    height: 100%;
+    background: rgb(1, 172, 253);
+    /* border: 1px solid blue; */
+}
+.footer-img{
+    display: flex;
+    align-items: center;
+}
+
 
 
 
@@ -317,6 +375,44 @@ header section button{
         height: 100%;
     }
     .left-right{
+       visibility: hidden;
+    }
+    .box-one, .box-two, .box-three{
+        height: 100%;
+    }
+    .big-box{
         visibility: hidden;
+    }
+    /* .photo-container{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr); */
+        /* margin: 50px 70px 50px 0px; */
+        /* width: 100%;
+        height: 100%; */
+        /* align-items: flex-start; */
+    /* } */
+    /* .photos{
+        align-items: center;
+        justify-content: center;
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+    } */
+     /* .right-left{
+        width: 100%;
+        height: 100%;
+     } */
+    .footer-container{
+        flex-direction: column;
+        text-align: left;
+        margin: 0%;
+        /* border: 1px solid black; */
+        /* justify-content: left; */
+        padding: 5px;
+    }
+    .footer-img{
+        text-align: left;
+    }
+    .footer-pgh{
+        font-size: 200;
     }
 }
