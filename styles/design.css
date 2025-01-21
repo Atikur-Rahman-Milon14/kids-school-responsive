@@ -282,4 +282,7 @@ header section button{
         flex-direction: column;
         margin-bottom: 10px;
     }
+    .flexxx{
+        width: 70%;
+    }
 }
