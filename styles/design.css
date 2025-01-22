@@ -13,6 +13,9 @@
     font-weight: 700;
     line-height: 30px;
 }
+.menu-icon{
+    display: none;
+}
 #nav-one{
     color: rgb(254, 163, 1);
     font-family: Quicksand;
@@ -224,7 +227,12 @@ header section button{
     text-align: center;
 }
 
-
+marquee{
+    height: 100%;
+    font-family: Quicksand;
+    font-size: 46px;
+    font-weight: 700;
+}
 
 /* !break */
 
@@ -242,6 +250,9 @@ header section button{
     border-radius: 16px;
     background: rgb(255, 255, 255);
     /* border: 3px solid red; */
+    width: 100%;
+    margin: 0px;
+    padding: 0px;
 }
 .bigest-img{
     border-radius: 16px 16px 0px 0px;
@@ -358,6 +369,18 @@ header section button{
 
 
 
+.dot{
+    border: 1px solid red;
+    align-items: center;
+    justify-content: center;
+    justify-items: center;
+    margin: 0px auto;
+}
+
+
+
+
+
 
 /*! footer section  */
 
@@ -427,6 +450,12 @@ footer{
         flex-direction: column;
 
     } 
+    .menu-icon{
+        display: inline;
+        height: 35px;
+        width: 35px;
+        
+    }
      .logo{
         background-color: white;
         border: 0.5px solid rgb(254, 163, 1);
@@ -435,6 +464,7 @@ footer{
         border-top: 0px;
         border-left: 0px;
         border-right: 0px;
+        justify-content: space-between;
     } 
      .container{
         flex-direction: column-reverse;
@@ -547,7 +577,12 @@ footer{
         display: grid;
         grid-template-columns: repeat(2, 1fr);
         /* flex-direction: column; */
+        /* width: 358px; */
         margin-right: 300px;
+        width: 100%;
+        margin: 0px;
+        padding: 0px;
+        
     }
     .middle-container{
         width: 100%;
