@@ -357,7 +357,6 @@ marquee{
         justify-content: center;
         align-items: center;
         padding: 10px;
-        margin: 80px 0px;
         border-radius: 12px;
         border: none;
         background: rgb(17, 17, 17);
@@ -365,17 +364,17 @@ marquee{
         font-family: Quicksand;
         font-size: 20px;
         font-weight: 700;
+        /* border: 1px solid red; */
+}
+.btn-nnn{
+    width: 197px;
+    height: 50px;
+    display: flex;
+    margin: 30px auto 0px auto;
 }
 
 
 
-.dot{
-    border: 1px solid red;
-    align-items: center;
-    justify-content: center;
-    justify-items: center;
-    margin: 0px auto;
-}
 
 
 
@@ -589,7 +588,11 @@ footer{
         justify-content: center;
         align-items: center;
     }
-
+    #new-btn{
+        margin-left: 28px;
+        margin-top: -15px;
+        margin-bottom: 0px;
+    }
 
 
 
