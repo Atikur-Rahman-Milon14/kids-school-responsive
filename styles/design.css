@@ -577,7 +577,7 @@ footer{
         grid-template-columns: repeat(2, 1fr);
         /* flex-direction: column; */
         /* width: 358px; */
-        border: 1px solid red;
+        /* border: 1px solid red; */
         width: 80vh;
         padding: 0px 90px 0px 90px;
         box-sizing: 50%;
