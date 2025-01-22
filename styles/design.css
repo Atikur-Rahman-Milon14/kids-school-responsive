@@ -571,17 +571,17 @@ footer{
         height: 100%;
      } */
     .middle-fig-content{
-        visibility: hidden;
+        display: none;
     }
     .middle-fig-contentt{
         display: grid;
         grid-template-columns: repeat(2, 1fr);
         /* flex-direction: column; */
         /* width: 358px; */
-        margin-right: 300px;
-        width: 100%;
-        margin: 0px;
-        padding: 0px;
+        border: 1px solid red;
+        width: 80vh;
+        padding: 0px 90px 0px 90px;
+        box-sizing: 50%;
         
     }
     .middle-container{
@@ -589,7 +589,6 @@ footer{
         justify-content: center;
         align-items: center;
     }
-
 
 
 
